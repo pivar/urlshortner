@@ -1,0 +1,27 @@
+{
+    "name": "pivar/urlshortner",
+    "description": "short or expand your urls via custom providers",
+    "license": "MIT",
+    "keywords": ["url", "shortener", "shorten", "api"],
+    "homepage": "https://github.com/pivar/urlshortner",
+    "authors": [
+        {
+            "name": "Ravi T",
+            "email": "ravi@isensical.com",
+            "homepage": "http://www.isensical.com",
+            "role": "Lead Architect"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "php-http/laravel-httplug": "^1.0",
+        "php-http/message-factory": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pivar\\urlshortner\\": "vendor/pivar/urlshortner/src"
+        }
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}
